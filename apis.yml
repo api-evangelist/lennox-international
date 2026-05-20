@@ -72,6 +72,8 @@ apis:
       - url: https://github.com/lukealonso/lennoxapi
         type: SourceCode
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lennox-international
   - url: https://www.lennox.com/
     type: Website
   - url: https://www.lennoxinternational.com/

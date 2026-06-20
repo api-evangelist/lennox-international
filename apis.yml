@@ -9,7 +9,7 @@ description: >-
   (Control4, Amazon Alexa, Apple HomeKit, Google Assistant, IFTTT) and through
   community-maintained, reverse-engineered Python and TypeScript libraries.
 kind: contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: Partner
 tags:
   - HVAC

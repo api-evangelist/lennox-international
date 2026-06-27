@@ -78,7 +78,7 @@ common:
   - url: https://www.lennox.com/
     type: Website
   - url: https://www.lennoxinternational.com/
-    type: CorporateWebsite
+    type: Website
   - url: https://www.lennoxpros.com/
     type: PartnerPortal
   - url: https://www.support.lennoxicomfort.com/

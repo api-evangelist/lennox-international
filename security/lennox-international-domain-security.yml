@@ -1,0 +1,46 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.lennox.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov 28 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: www.lennoxinternational.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov 30 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: www.lennoxpros.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Nov  7 23:59:59 2026 GMT
+  hsts: null
+domains:
+- domain: lennox.com
+  dnssec: false
+  caa:
+  - 128 issue "digicert.com"
+  - 128 issuewild "entrust.net"
+  - 128 issue "entrust.net"
+  - 128 issuewild "sectigo.com"
+  - 128 issue "sectigo.com"
+  - 128 iodef "mailto:DISTLIST_ITOps_Windows_Server@LennoxInd.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: lennoxinternational.com
+  dnssec: false
+  caa:
+  - 128 issue "entrust.net"
+  - 128 issuewild "sectigo.com"
+  - 128 issue "sectigo.com"
+  - 128 issue "digicert.com"
+  - 128 iodef "mailto:DISTLIST_ITOps_Windows_Server@LennoxInd.com"
+  - 128 issuewild "entrust.net"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

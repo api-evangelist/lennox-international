@@ -73,6 +73,8 @@ apis:
       - url: https://github.com/lukealonso/lennoxapi
         type: SourceCode
 common:
+  - type: DomainSecurity
+    url: security/lennox-international-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/lennox-international
   - url: https://www.lennox.com/

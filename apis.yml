@@ -9,7 +9,19 @@ description: >-
   (Control4, Amazon Alexa, Apple HomeKit, Google Assistant, IFTTT) and through
   community-maintained, reverse-engineered Python and TypeScript libraries.
 kind: contract
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lennox-international.png
 access: Partner
 tags:
   - HVAC
@@ -20,27 +32,9 @@ tags:
   - Fortune 1000
 url: https://raw.githubusercontent.com/api-evangelist/lennox-international/refs/heads/main/apis.yml
 created: '2026-03-24'
-modified: '2026-04-28'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
-  - aid: lennox-international:lennox-icomfort-smart-home-integrations
-    name: Lennox iComfort Smart Home Integrations
-    description: >-
-      Official partner integrations for the Lennox iComfort S30, E30, and M30
-      smart thermostats. Connectivity is provided through Control4, Amazon
-      Alexa, Apple HomeKit, Google Assistant, and IFTTT rather than a public
-      developer API. Control4 drivers are distributed through authorized
-      Control4 dealers.
-    humanURL: https://www.lennoxpros.com/news/icomfort-smart-home-integration
-    tags:
-      - Smart Home
-      - Thermostat
-      - Integrations
-    properties:
-      - url: https://www.lennoxpros.com/news/icomfort-smart-home-integration
-        type: Documentation
-      - url: https://www.support.lennoxicomfort.com/help/lennox-control4/lennox-control4.html
-        type: Documentation
   - aid: lennox-international:lennox-s30-community-api
     name: Lennox S30 Community API
     description: >-
@@ -72,6 +66,24 @@ apis:
     properties:
       - url: https://github.com/lukealonso/lennoxapi
         type: SourceCode
+  - aid: lennox-international:lennox-icomfort-smart-home-integrations
+    name: Lennox iComfort Smart Home Integrations
+    description: >-
+      Official partner integrations for the Lennox iComfort S30, E30, and M30
+      smart thermostats. Connectivity is provided through Control4, Amazon
+      Alexa, Apple HomeKit, Google Assistant, and IFTTT rather than a public
+      developer API. Control4 drivers are distributed through authorized
+      Control4 dealers.
+    humanURL: https://www.lennoxpros.com/news/icomfort-smart-home-integration
+    tags:
+      - Smart Home
+      - Thermostat
+      - Integrations
+    properties:
+      - url: https://www.lennoxpros.com/news/icomfort-smart-home-integration
+        type: Documentation
+      - url: https://www.support.lennoxicomfort.com/help/lennox-control4/lennox-control4.html
+        type: Documentation
 common:
   - type: DomainSecurity
     url: security/lennox-international-domain-security.yml

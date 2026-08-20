@@ -78,6 +78,10 @@ apis:
     tags:
       - Smart Home
       - Thermostat
+      - Integration
+    tags_raw:
+      - Smart Home
+      - Thermostat
       - Integrations
     properties:
       - url: https://www.lennoxpros.com/news/icomfort-smart-home-integration

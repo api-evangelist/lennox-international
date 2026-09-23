@@ -1,7 +1,9 @@
 ---
 title: Lennox Reports First Quarter Results
 url: https://investor.lennox.com/news-releases/news-release-details/lennox-reports-first-quarter-results
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lennox International" press release artificial intelligence'
 position: 2
 source: serpapi-google

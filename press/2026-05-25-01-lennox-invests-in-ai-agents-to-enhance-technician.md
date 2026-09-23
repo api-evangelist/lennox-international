@@ -1,7 +1,9 @@
 ---
 title: Lennox Invests in AI Agents to Enhance Technician ...
 url: https://www.prnewswire.com/news-releases/lennox-invests-in-ai-agents-to-enhance-technician-support-and-customer-experience-302552797.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lennox International" press release artificial intelligence'
 position: 1
 source: serpapi-google

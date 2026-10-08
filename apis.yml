@@ -104,6 +104,12 @@ apis:
       - url: https://www.support.lennoxicomfort.com/help/lennox-control4/lennox-control4.html
         type: Documentation
 common:
+  - type: Plans
+    url: plans/lennox-international-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/lennox-international-rate-limits.yml
+  - type: FinOps
+    url: finops/lennox-international-finops.yml
   - type: DomainSecurity
     url: security/lennox-international-domain-security.yml
   - type: LinkedIn

@@ -1,0 +1,53 @@
+edges:
+- partner_name: OpenADR
+  partner: null
+  type: contract
+  channel: network-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://products.openadr.org/
+  contract_reference:
+    register: OpenADR Alliance certified product database
+    spec_file: null
+    role: certified-product
+    registered_name: Lennox International Inc.
+    matched_domain: lennox.com
+    certified_products:
+    - product: iComfort Smart Wi-Fi Thermostats
+      type: VEN (client)
+      lapsed: false
+      profile: 2.0b
+      page: https://products.openadr.org/product/lennox-international-inc-icomfort-e30-model-number-105136-xx/
+    - product: iComfort Smart Wi-Fi Thermostats
+      type: VEN (client)
+      lapsed: false
+      profile: 2.0b
+      page: https://products.openadr.org/product/lennox-international-inc-icomfort-s30-model-number-104329-xx/
+    - product: iComfort Smart Wi-Fi Thermostats
+      type: VEN (client)
+      lapsed: false
+      profile: 2.0b
+      page: https://products.openadr.org/product/lennox-international-inc-icomfort-s30-model-number-105081-xx/
+    - product: iComfort S40, S30, E30, M30
+      type: VEN
+      lapsed: false
+      profile: 2.0b
+      page: https://products.openadr.org/product/lennox-international-inc-icomfort-s40-s30-e30-m30/
+    - product: iComfort Smart Wi-Fi Thermostats
+      type: VEN (client)
+      lapsed: false
+      profile: 2.0b
+      page: https://products.openadr.org/product/lennox-international-inc-icomfort-smart-wi-fi-thermostats/
+    - product: Smart Thermostats L40
+      type: VEN
+      lapsed: false
+      profile: 2.0b
+      page: https://products.openadr.org/product/lennox-smart-thermostats-l40/
+    profiles:
+    - 2.0b
+    detected_by: sweep-energy.py
+    detected: '2026-10-13'
+generated: '2026-10-13'
+method: searched
+checked:
+- https://products.openadr.org/

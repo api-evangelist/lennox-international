@@ -54,3 +54,43 @@
     detected: '2026-10-13'
   status: not-a-workflow
   arazzo: null
+- slug: lennox-international-connectivity-standards-alliance-matter
+  label: Connectivity Standards Alliance (Matter)
+  partner_name: Connectivity Standards Alliance (Matter)
+  category: Matter certified products
+  type: contract
+  channel: standard-directory
+  evidence: https://on.dcl.csa-iot.org/dcl/vendorinfo/vendors/4950
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: CSA Distributed Compliance Ledger (Matter certification)
+    spec_file: null
+    standard: Matter
+    role: Matter certified vendor
+    vendor_id: 4950
+    registered_name: Lennox International
+    legal_name: Lennox International, Inc
+    landing_page: https://www.lennox.com
+    identity_source: vendorLandingPageURL
+    matched_domain: lennox.com
+    matched_by: domain
+    certified_models: 6
+    certified_products:
+    - product: Thermostat
+      device_type_id: 769
+      models: 6
+      revoked_models: 0
+      latest_certification: '2026-01-28'
+      transports:
+      - wi-fi
+      examples:
+      - Allied CA4 Smart Thermostat
+      - Lennox E40 Smart Thermostat
+      - Lennox L40 Smart Thermostat
+      lapsed: false
+    signal_note: certified_products = one entry per device type (diversity), not per model
+    detected_by: sweep-iot.py
+    detected: '2026-10-14'
+  status: not-a-workflow
+  arazzo: null

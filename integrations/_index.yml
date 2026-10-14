@@ -94,3 +94,16 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
+- slug: lennox-international-servicetitan-own
+  label: ServiceTitan (own)
+  partner: servicetitan
+  partner_name: ServiceTitan (own)
+  category: Suppliers, Catalogs & Pricebooks
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.servicetitan.com/partner/lennox
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null

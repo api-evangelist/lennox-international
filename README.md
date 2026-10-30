@@ -1,4 +1,4 @@
-# Lennox International (lennox-international)
+# Lennox International
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,50 +66,106 @@
 
 Lennox International is a global leader in the heating, air conditioning, and refrigeration markets, providing climate control solutions for residential and commercial applications. Lennox does not publish a general developer portal for HVAC system access. Smart-home integrations with the iComfort S30, E30, and M30 thermostat product lines are delivered through partnerships (Control4, Amazon Alexa, Apple HomeKit, Google Assistant, IFTTT) and through community-maintained, reverse-engineered Python and TypeScript libraries.
 
-**APIs.json:** [apis.yml](apis.yml)
+**Areas:** HVAC · Smart Home · Thermostat · IoT · Climate Control · Fortune 1000
 
-## Scope
+## Lennox International on APIs.io
 
-- **Type:** Contract
-- **Access:** Partner
+Everything profiled for Lennox International is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lennox-international/](https://apis.io/providers/lennox-international/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- HVAC
-- Smart Home
-- Thermostat
-- IoT
-- Climate Control
+- [Lennox S30 Community API](https://apis.io/apis/lennox-international/lennox-s30-community-api/) — Community-maintained, reverse-engineered Python library for communicating with Lennox S30, S40, E30, and M30 climate controls via the Lennox cloud or local…
+- [lennoxapi (TypeScript)](https://apis.io/apis/lennox-international/lennoxapi-typescript/) — TypeScript port of the community Python library for controlling Lennox S30, S40, E30, and M30 thermostats over a local LAN connection. No cloud required.
+- [Lennox iComfort Smart Home Integrations](https://apis.io/apis/lennox-international/lennox-icomfort-smart-home-integrations/) — Official partner integrations for the Lennox iComfort S30, E30, and M30 smart thermostats. Connectivity is provided through Control4, Amazon Alexa, Apple…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-24
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
+Authentication, trust centre, and vulnerability disclosure.
 
-### Lennox S30 Community API
+- [Lennox International Domain Security](https://apis.io/security/lennox-international/lennox-international-domain-security/)
 
-Community-maintained, reverse-engineered Python library for communicating with Lennox S30, S40, E30, and M30 climate controls via the Lennox cloud or local LAN. Powers the popular Home Assistant integration. Not an official Lennox product.
+#### Plans and pricing (1)
 
-- **Source:** https://github.com/PeteRager/lennoxs30api
-- **Home Assistant integration:** https://github.com/PeteRager/lennoxs30
+Published plans, tiers and prices.
 
-### lennoxapi (TypeScript)
+- [Lennox International Plans Pricing](https://apis.io/plans/lennox-international/lennox-international-plans-pricing/)
 
-TypeScript port of the community Python library for controlling Lennox S30, S40, E30, and M30 thermostats over a local LAN connection. No cloud required.
+#### Rate limits (1)
 
-- **Source:** https://github.com/lukealonso/lennoxapi
+Published request limits.
 
-## Common Properties
+- [Lennox International Rate Limits](https://apis.io/rate-limits/lennox-international/lennox-international-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Lennox International Finops](https://apis.io/finops/lennox-international/lennox-international-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.lennox.com/)
-- [CorporateWebsite](https://www.lennoxinternational.com/)
-- [PartnerPortal](https://www.lennoxpros.com/)
+- [Sign up](https://www.lennox.com/residential/owners/register-and-review/)
 - [Support](https://www.support.lennoxicomfort.com/)
+- [Blog](https://www.lennox.com/commercial/blog)
+- [Terms of service](https://www.lennox.com/terms-and-conditions)
+- [Privacy policy](https://www.lennox.com/privacy)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 19.7** — emerging · rubric 0.24.0 · scored 2026-10-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 42.1 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lennox-international/](https://apis.io/providers/lennox-international/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lennox International: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lennox-international/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
